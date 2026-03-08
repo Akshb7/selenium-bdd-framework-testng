@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ParallelSuite" parallel="tests" thread-count="2">
+  
+  <test name="OriginalLoginTest">
+    <classes>
+      <class name="com.automation.runners.TestRunner"/>
+    </classes>
+  </test>
+
+  <test name="SauceDemoLoginTest">
+    <classes>
+      <class name="com.automation.runners.TestRunnerSauce"/>
+    </classes>
+  </test>
+
+</suite>
